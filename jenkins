@@ -1,0 +1,4 @@
+ wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+Open a terminal and navigate to the directory containing the WAR file.
+ java -jar jenkins.war
+java -jar jenkins.war --httpPort=9999.
